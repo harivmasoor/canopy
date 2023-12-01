@@ -28,7 +28,7 @@ class OpenAILLM(BaseLLM):
           >>> openai.api_key = "YOUR_API_KEY"
     """
     def __init__(self,
-                 model_name: str = "gpt-3.5-turbo",
+                 model_name: str = "gpt-4-1106-preview",
                  *,
                  api_key: Optional[str] = None,
                  organization: Optional[str] = None,

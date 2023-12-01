@@ -35,7 +35,7 @@ class TestOpenAILLM:
     @staticmethod
     @pytest.fixture
     def model_name():
-        return "gpt-3.5-turbo-0613"
+        return "gpt-4-1106-preview"
 
     @staticmethod
     @pytest.fixture

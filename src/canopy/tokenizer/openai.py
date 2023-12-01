@@ -23,7 +23,7 @@ class OpenAITokenizer(BaseTokenizer):
     MESSAGE_TOKENS_OVERHEAD = 3
     FIXED_PREFIX_TOKENS = 3
 
-    def __init__(self, model_name: str = "gpt-3.5-turbo"):
+    def __init__(self, model_name: str = "gpt-4-1106-preview"):
         """
         Initialize the tokenizer.
 

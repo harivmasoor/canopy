@@ -9,7 +9,7 @@ class TestOpenAITokenizer(BaseTestTokenizer):
     @staticmethod
     @pytest.fixture(scope="class")
     def tokenizer():
-        return OpenAITokenizer(model_name="gpt-3.5-turbo")
+        return OpenAITokenizer(model_name="gpt-4-1106-preview")
 
     @staticmethod
     @pytest.fixture

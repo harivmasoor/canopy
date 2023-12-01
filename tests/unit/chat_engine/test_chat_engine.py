@@ -80,7 +80,7 @@ class TestChatEngine:
             id='chatcmpl-7xuuGZzniUGiqxDSTJnqwb0l1xtfp',
             object='chat.completion',
             created=1694514456,
-            model='gpt-3.5-turbo',
+            model='-3.5-turbo',
             choices=[_Choice(index=0,
                              message=MessageBase(
                                  role=Role.ASSISTANT,
